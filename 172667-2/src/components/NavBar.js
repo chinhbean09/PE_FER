@@ -5,6 +5,7 @@ import { toast } from "react-toastify";
 
 const Navbar = () => {
     const [isLogin, setIsLogin] = useState(false);
+    
     function SignOut() {
         setIsLogin(false);
         localStorage.removeItem('isLogin');
